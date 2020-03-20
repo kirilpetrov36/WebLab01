@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+
+
+    body {
+        background-image: url("img_parallax.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 100%;
+        margin: 0;
+        font-size: 100%
+    }
+
+    .down-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 3%;
+        margin-left: 4%;
+        margin-bottom: 0;
+    }
+
+
+    @media only screen and (max-width: 950px) {
+
+        .down-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 3%;
+            margin-left: 4%;
+            margin-bottom: 0;
+            justify-content: center;
+        }
+
+        
+    }
+
+    p.user {
+        font-size: 1.4em;
+        font-family: sans-serif;
+        margin-right: 1.5%;
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/containers.css">
+    <link rel="stylesheet" type="text/css" href="css/item.css">
+    <link rel="stylesheet" type="text/css" href="css/search_field.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="upper-container">
+            <p id="MyNOTES"> MyNOTES </p>
+        </div>
+        <div class="down-container">
+            <p class="button butt5"> User_name </p>
+            <div class="button butt1"> New note </div>
+            <div class="button butt3"> Select note </div>
+            <div class="button butt4"> Delete note </div>
+            <div class="button butt2" onClick='location.href="WatchUsers.htm"'> Users </div>
+            <div class="button butt1" onClick='location.href="LoginPage.htm"'> Log out </div>
+            <div class="topnav sub">
+                <input type="text" placeholder="Search note...">
+            </div>
+        </div>
+        <div class="main">
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+            <div class="item" onClick='location.href="note.htm"'>
+                <h1>THEME</h1>
+                <h2>some text...</h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
